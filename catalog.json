@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "name": "mad-agent-skills",
+  "description": "Vendor-agnostic reusable agent skills for teams and agent runtimes.",
+  "categories": [
+    {
+      "id": "browser-ui",
+      "description": "Real browser verification, logged-in UI workflows, visual QA, and safe external-action handling."
+    },
+    {
+      "id": "engineering-review",
+      "description": "Release review, regression hunting, CI triage, security and correctness passes."
+    },
+    {
+      "id": "engineering-execution",
+      "description": "Implementation workflows, migrations, code generation, and release mechanics."
+    },
+    {
+      "id": "product-craft",
+      "description": "Product direction, GTM strategy, interface systems, brand voice creation, and customer-facing workflow design."
+    }
+  ],
+  "skills": [
+    {
+      "name": "devils-advocate-review",
+      "category": "engineering-review",
+      "path": "skills/engineering-review/devils-advocate-review",
+      "entrypoint": "SKILL.md",
+      "summary": "Engineering-only adversarial release review that verifies findings before patching."
+    },
+    {
+      "name": "public-surface-redaction-review",
+      "category": "engineering-review",
+      "path": "skills/engineering-review/public-surface-redaction-review",
+      "entrypoint": "SKILL.md",
+      "summary": "Public-readiness review for secrets, private assumptions, metadata, screenshots, and generated artifacts."
+    },
+    {
+      "name": "agent-worktree-coordinator",
+      "category": "engineering-execution",
+      "path": "skills/engineering-execution/agent-worktree-coordinator",
+      "entrypoint": "SKILL.md",
+      "summary": "Coordination workflow for branches, worktrees, generated outputs, and handoffs."
+    },
+    {
+      "name": "decision-ready-orchestrator",
+      "category": "engineering-execution",
+      "path": "skills/engineering-execution/decision-ready-orchestrator",
+      "entrypoint": "SKILL.md",
+      "summary": "Turns multi-agent work, reviews, and research into evidence-backed owner decisions."
+    },
+    {
+      "name": "live-browser-proof",
+      "category": "browser-ui",
+      "path": "skills/browser-ui/live-browser-proof",
+      "entrypoint": "SKILL.md",
+      "summary": "Rendered UI and logged-in browser verification with safe external-action boundaries."
+    },
+    {
+      "name": "interface-system-design",
+      "category": "product-craft",
+      "path": "skills/product-craft/interface-system-design",
+      "entrypoint": "SKILL.md",
+      "summary": "Practical product interface design for SaaS, dashboards, admin tools, real states, existing app patterns, and browser-proven UI."
+    },
+    {
+      "name": "saas-product-direction",
+      "category": "product-craft",
+      "path": "skills/product-craft/saas-product-direction",
+      "entrypoint": "SKILL.md",
+      "summary": "Product thesis, prioritization, roadmap, and product brief workflow for SaaS products."
+    },
+    {
+      "name": "saas-gtm-strategy",
+      "category": "product-craft",
+      "path": "skills/product-craft/saas-gtm-strategy",
+      "entrypoint": "SKILL.md",
+      "summary": "ICP, positioning, offer, channel, funnel, and 90-day GTM plan workflow for SaaS products."
+    },
+    {
+      "name": "create-brand-voice",
+      "category": "product-craft",
+      "path": "skills/product-craft/create-brand-voice",
+      "entrypoint": "SKILL.md",
+      "summary": "Creates a local product-specific brand voice skill from user answers, URLs, examples, and tone rules."
+    },
+    {
+      "name": "public-facing-writing",
+      "category": "product-craft",
+      "path": "skills/product-craft/public-facing-writing",
+      "entrypoint": "SKILL.md",
+      "summary": "Keeps READMEs, docs, website copy, product copy, and brand voice work reader-facing instead of exposing internal reasoning."
+    }
+  ]
+}
